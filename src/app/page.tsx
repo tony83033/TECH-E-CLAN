@@ -3,6 +3,7 @@ import {SparklesPreview} from './components/Hero'
 import Navbar from './components/Navbar'
 import {ParallaxScrollDemo} from './components/LayoutGrid'
 import Team from './components/Team'
+import Sponsors from './components/Sponsors'
 
 const Page = () => {
   return (
@@ -11,6 +12,7 @@ const Page = () => {
         <div>        <Navbar></Navbar></div>
         <div> <SparklesPreview/></div>
         <div> <Team></Team></div>
+        <div><Sponsors></Sponsors></div>
 
         {/*
       
