@@ -4,20 +4,25 @@ import {MovingBorderDemo} from './MovingBorder'
 const Navbar = () => {
     const data =[
         {
+            id:"1",
             name:"HOME",
             link:"#",
         },
         {
+          id:"2",
             name:"ABOUT",
             link:"#",
         },
         {
+            id:"3",
             name:"SPONSORS",
             link:"#"
         },{
+          id:"4",
             name:"SCHEDULE",
             link:"#"
         },{
+          id:"5",
             name:"TEAM",
             link:"#"
         }
@@ -70,7 +75,7 @@ const Navbar = () => {
         >
           {/* Home link */}
           {data.map((item)=>(
-               <li
+               <li key={item.id}
                className="my-4 text-1xl ps-2 lg:my-0 lg:pe-1 lg:ps-2"
                data-twe-nav-item-ref=""
              >
