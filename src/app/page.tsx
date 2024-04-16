@@ -13,13 +13,14 @@ const Page = () => {
         <div> <SparklesPreview/></div>
         <div> <Team></Team></div>
         <div><Sponsors></Sponsors></div>
+        <div> <ParallaxScrollDemo></ParallaxScrollDemo></div>
 
         {/*
       
         </SparklesPreview> */}
         {/* */}
         {/* <Sponsors></Sponsors> */}
-        {/* <ParallaxScrollDemo></ParallaxScrollDemo> */}
+        {/* */}
 
     </div>
   )
