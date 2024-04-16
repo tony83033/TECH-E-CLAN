@@ -14,7 +14,7 @@ const Team = () => {
       instagram:"",
     },
     {
-      id: 1,
+      id: 2,
       name: "Arjun Singh",
       role: "Member",
       image: "/team/ArjunSingh.jpg",
@@ -24,7 +24,7 @@ const Team = () => {
       instagram:"",
     },
     {
-      id: 1,
+      id: 3,
       name: "Anamika",
       role: "Managment Dir",
       image: "/team/anamika.jpeg",
@@ -34,7 +34,7 @@ const Team = () => {
       instagram:"",
     },
     {
-      id: 1,
+      id: 4,
       name: "Vipul",
       role: "Member",
       image: "/team/vipul.jpg",
@@ -44,7 +44,7 @@ const Team = () => {
       instagram:"",
     },
     {
-      id: 1,
+      id: 5,
       name: "Sneha Yadav",
       role: "Content Creator",
       image: "/team/snehaYadav.jpg",
@@ -54,7 +54,7 @@ const Team = () => {
       instagram:"",
     },
     {
-      id: 1,
+      id: 6,
       name: "Abhishek Sharma",
       role: "Member",
       image: "/team/AbhishekSharma.jpg",
@@ -64,10 +64,40 @@ const Team = () => {
       instagram:"",
     },
     {
-      id: 1,
+      id: 7,
       name: "Abhay Srivastava",
       role: "Vice-President",
       image: "/team/AbhaySrivastava.png",
+      github: "",
+      twitter:"",
+      linkedin: "",
+      instagram:"",
+    },
+    {
+      id: 8,
+      name: "Divyanshu Kothari",
+      role: "Member",
+      image: "/team/div.jpeg",
+      github: "",
+      twitter:"",
+      linkedin: "",
+      instagram:"",
+    },
+    {
+      id: 9,
+      name: "Sumit pal",
+      role: "Member",
+      image: "/team/sumit.png ",
+      github: "",
+      twitter:"",
+      linkedin: "",
+      instagram:"",
+    },
+    {
+      id: 10,
+      name: "Utkarsh Tiwari",
+      role: "Member",
+      image: "/team/ut.jpeg",
       github: "",
       twitter:"",
       linkedin: "",
@@ -98,7 +128,7 @@ const Team = () => {
         {item.name}
       </h1>
       <p className="mt-2 text-gray-500 capitalize dark:text-white-300 group-hover:text-gray-300">
-        design director
+        {item.role}
       </p>
       <div className="flex mt-3 -mx-2">
         <a
