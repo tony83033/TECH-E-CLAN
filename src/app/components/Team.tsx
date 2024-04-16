@@ -6,7 +6,7 @@ const Team = () => {
     {
       id: 1,
       name: "Nesar Alam",
-      role: "Technical Head",
+      role: "Tech Team",
       image: "/team/nesar.png",
       github: "https://github.com/nesaralam08",
       twitter:"",
@@ -16,7 +16,7 @@ const Team = () => {
     {
       id: 2,
       name: "Arjun Singh",
-      role: "Member",
+      role: "Tech Team",
       image: "/team/ArjunSingh.jpg",
       github: "",
       twitter:"",
@@ -76,7 +76,7 @@ const Team = () => {
     {
       id: 8,
       name: "Divyanshu Kothari",
-      role: "Member",
+      role: "Tech Team",
       image: "/team/div.jpeg",
       github: "",
       twitter:"",
@@ -86,7 +86,7 @@ const Team = () => {
     {
       id: 9,
       name: "Sumit pal",
-      role: "Member",
+      role: "Tech Team",
       image: "/team/sumit.jpeg ",
       github: "",
       twitter:"",
