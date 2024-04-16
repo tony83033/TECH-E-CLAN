@@ -87,7 +87,7 @@ const Team = () => {
       id: 9,
       name: "Sumit pal",
       role: "Member",
-      image: "/team/sumit.png ",
+      image: "/team/sumit.jpeg ",
       github: "",
       twitter:"",
       linkedin: "",
