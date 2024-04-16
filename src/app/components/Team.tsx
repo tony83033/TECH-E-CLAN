@@ -94,10 +94,10 @@ const Team = () => {
         src={item.image}
         alt=""
       />
-      <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+      <h1 className="mt-4  text-2xl font-semibold text-white-700 capitalize dark:text-white group-hover:text-white">
         {item.name}
       </h1>
-      <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+      <p className="mt-2 text-gray-500 capitalize dark:text-white-300 group-hover:text-gray-300">
         design director
       </p>
       <div className="flex mt-3 -mx-2">
