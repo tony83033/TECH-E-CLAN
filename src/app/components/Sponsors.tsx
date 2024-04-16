@@ -7,7 +7,7 @@ const Sponsors = () => {
       <div className="space-y-3">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Sponsors</h2>
         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          We're grateful for the support of our sponsors.
+          We&aposre grateful for the support of our sponsors.
         </p>
       </div>
       <div className="flex justify-center items-start space-x-4">
