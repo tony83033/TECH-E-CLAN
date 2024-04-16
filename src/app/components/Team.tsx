@@ -102,6 +102,15 @@ const Team = () => {
       twitter:"",
       linkedin: "",
       instagram:"",
+    },{
+      id: 11,
+      name: "Sargam",
+      role: "President",
+      image: "/team/sargam.jpeg",
+      github: "",
+      twitter:"",
+      linkedin: "",
+      instagram:"",
     }
   ]
   return (
